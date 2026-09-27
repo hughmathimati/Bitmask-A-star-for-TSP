@@ -1,4 +1,4 @@
-# Bitmask-A-star-for-TSP
+# Bitmask A* for TSP
 Hyper-optimised bitmask-based A* algorithm for the travelling salesman problem. The algorithm takes as input an adjacency matrix, and assumes the graph is fully-connected with positive weights (the diagonal is zero, as nodes do not have edges to themselves). The algorithm does not assume the edges are bidirectional. Make sure to compile with GCC, and pass `-O3 -ffast-math -unroll-loops -march=native`.
 
 The timings below were obtained on an Apple M5 CPU:
